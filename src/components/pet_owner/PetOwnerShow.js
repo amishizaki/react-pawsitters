@@ -120,6 +120,10 @@ const PetOwnerShow = ({ user, msgAlert }) => {
                             <h6>{petOwner.pet_name} the {petOwner.pet_type} </h6>
                             <h5>About Your Pet</h5>
                             <p>{petOwner.pet_bio}</p>
+                            <h5>Age</h5>
+                            <p>7 months<br/><i>(Placeholder)</i>{}</p>
+                            <h5>Any Medical requirements</h5>
+                            <p>None<br/><i>(Placeholder)</i>{}</p>
                         </div>
 
                         <div className='container-md text-center'>
